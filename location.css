@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap');
+*,
+* ::before *::after body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+header{
+  width: 375px;
+  height: 575px;
+  
+  background-image:url(./assets/mobile/rukaaaaaaa.png)
+}
+main{
+    width: 375px;
+    height: 500px;
+    background-color: #151515;
+}
+h1{
+    width: 343px;
+    color: var(--White, #FFF);
+font-family: 'Big Shoulders Display';
+font-size: 50px;
+font-style: normal;
+font-weight: 900;
+line-height: 45px; /* 90% */
+text-transform: uppercase;
+}
+h2{
+    color: var(--Gold, #D5966C);
+font-family: 'Big Shoulders Display';
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: 32px; /* 100% */
+text-transform: uppercase;
+}
+h3{
+    color: var(--White, #FFF);
+font-family: 'Outfit';
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 155.556% */
+}
+h4{
+    color: var(--White, #FFF);
+font-family: 'Outfit';
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 155.556% */
+}
+h1,h3,h4,h2{
+    width: 343px;
+    color: #FFF;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+h2{
+    color: #D5966C;
+}
+h5{
+    font-size: 24px;
+    font-family: 'outfit';
+    font-weight: 900;
+}
+footer {
+    width: 375px;
+    height: 336px;
+    background-color: #D5966C;
+    position: relative;
+  
+  }
+  footer p {
+    width: 311px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    font-family: 'outfit';
+    font-weight: 300;
+  }
+  
+  footer img {
+    width: 100px;
+    height: 20px;
+  }
+  
+  h5,
+  footer p,
+  footer img {
+    margin-left: 20px;
+    margin-top: 35px;
+  }
+  header button {
+    width: 260px;
+    height: 72px;
+    background: black;
+    position: relative;
+    border: none;
+    cursor: pointer;
+  
+  }
+   button p {
+    position: relative;
+    left: 25px;
+    top: -70px;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 3.636px;
+    color: var(--White, #FFF);
+font-family: 'Big Shoulders Display';
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 3.636px;
+  
+  }
+  button img{
+    top: -1%;
+    left: -41%;
+    position: relative;
+    width: 56px;
+    height: 72px;
+  }
+  @media (width>768px){
+    header{
+        width: 768px;
+        height: 600px;
+        background-image: url(./assets/tablet/map.png);
+    }
+    header button{
+        left: 5%;
+    }
+    main{
+        width: 768px;
+        height: 435px;
+    }
+   .textbox{
+    margin-top: -100px;
+    margin-left: 43%;
+   }
+   h4{
+    font-size: 18px;
+    width: 400px;
+   }
+   h1{
+    width: 223px;
+    font-size: 55px;
+    line-height: 50px;
+    position: relative;
+    top: 10%;
+    left: 5%;
+   }
+   footer{
+    width: 768px;
+    height: 216px;
+   }
+   .textbox2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2%;
+   }
+   footer img{
+    margin-top: 45px;
+   }
+
+  }
+  @media (width>1440px){
+    header{
+        width: 1440px;
+        background-image: url(./assets/desktop/Bitmap.svg);
+    }
+    header button{
+        left: 10%;
+    }
+    main{
+        width: 1440px;
+        height: 550px;
+    }
+h1{
+    font-size: 70px;
+    line-height: 70px;
+}
+h2{
+    font-size: 36px;
+}
+h3,h4{
+    font-size: 22px;
+}
+h4{
+    width: 540px;
+    line-height: 30px;
+}
+footer{
+    width: 1440px;
+    height: 216px;
+}
+  }

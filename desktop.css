@@ -1,0 +1,94 @@
+@media (width>1440px){
+    
+    header{
+        width: 1440px;
+        height: 800px;
+    background-image: none;
+    }
+ h1{
+margin-left: -108%;
+    width: 514px;
+    font-size: 96px;
+    line-height: 88px;
+    color: white;
+ }
+.change1{
+    mix-blend-mode: difference;
+    color: #fff;
+}
+.change2{
+    mix-blend-mode: difference;
+    color: #fff;
+}
+header button{
+    top: 55%;
+    left: 65%;
+}
+
+
+.hide img{
+    margin-left: 46%;
+}
+.pic1, .pic2{
+    display: none;
+}
+header p{ 
+    position: absolute;
+    top: 16%;
+    left: 43%;
+}
+header button{
+    margin-left: -23%;
+    margin-top: 0%;
+   
+}
+h2{
+    font-size: 60px;
+    line-height: 60px;
+    width: 200px;
+    width: 277px;
+}
+.cont1{
+    column-gap: 110px;
+}
+.cont1 p{
+    font-size: 22px;
+    width: 350px;
+}
+.img1 img{
+    display: flex;
+}
+.img1{
+    background-image: none;
+    width: 635px;
+    height: 400px;
+}
+.img2{
+    width: 635px;
+    height: 720px;
+    background-position: bottom;
+}
+.img3{
+    width: 445px;
+    height: 313px;
+}
+.blackbox{
+    width: 445px;
+    height: 377px;
+    margin-top: -30px;
+}
+h3{
+    font-size: 60px;
+    line-height: 60px;
+}
+.blackbox p {
+    width: 335px;
+}
+.textbox1 button img{
+    top: -1%;
+}
+.hide{display: flex;}
+}
+ 
+    
+ 
