@@ -1,16 +1,15 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap');
 
-*,
-* ::before *::after body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'IBM Plex Sans', sans-serif;
 
-}
+  
+
+
 
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,10 +40,16 @@ header {
     position: relative;
     border: none;
     cursor: pointer;
+
   
   }
+  .textbox1 button:hover{
+    background: linear-gradient(0deg, black 32%, #D5966C 100%);
+
+      
+  }
   .textbox1{
-    margin-left: 10px;
+    margin-left: 20px;
   }
   h1{
     width: 343px;
@@ -68,8 +73,11 @@ line-height: 28px; /* 155.556% */
 .textbox1 button img{
 position:relative;
 top: -2%;
-left: 42%;
+left: 41%;
+opacity: 0.57;
+
 }
+
 .textbox1 button p{
     position: relative;
     top: -100%;
@@ -94,6 +102,7 @@ letter-spacing: 3.636px;
   background-image: url(./assets/mobile/hall.svg);
 }
 h2{
+  width: 300px;
   color: var(--Almost-Black, #151515);
 font-family: 'Big Shoulders Display';
 font-size: 50px;
@@ -152,6 +161,8 @@ footer{
   height: 340px;
   background-color: #151515;
   margin-top: 120px;
+  position: relative;
+  bottom: 0%;
 }
 .footertxt{
   display: block;

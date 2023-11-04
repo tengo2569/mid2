@@ -26,6 +26,7 @@ main{
     height: 500px;
     background-color: #151515;
 }
+
 h1{
     width: 343px;
     color: var(--White, #FFF);
@@ -109,9 +110,14 @@ footer {
     position: relative;
     border: none;
     cursor: pointer;
+    
   
+        
+    }
+  header button:hover{
+    background: linear-gradient(78deg,white,#D5966C 100%);
   }
-   button p {
+    button p {
     position: relative;
     left: 25px;
     top: -70px;
@@ -133,7 +139,9 @@ letter-spacing: 3.636px;
     position: relative;
     width: 56px;
     height: 72px;
+    opacity: 0.57;
   }
+  
   @media (width>768px){
     header{
         width: 768px;

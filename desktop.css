@@ -6,7 +6,7 @@
     background-image: none;
     }
  h1{
-margin-left: -108%;
+margin-left: -103%;
     width: 514px;
     font-size: 96px;
     line-height: 88px;
@@ -25,7 +25,9 @@ header button{
     left: 65%;
 }
 
-
+.cont2{
+    column-gap: 15px;
+}
 .hide img{
     margin-left: 46%;
 }
